@@ -7,5 +7,10 @@
     "dev": "node src/server.js"
   },
   "author": "Jitendra M <iamjitendrameena18@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
 }

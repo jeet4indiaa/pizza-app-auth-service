@@ -1,1 +1,5 @@
-console.log("Hello World");
+function login(username: string): boolean {
+  return true;
+}
+
+login("jitendram");
