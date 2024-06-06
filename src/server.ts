@@ -1,11 +1,4 @@
-function login(username: string): string {
-    //console.log(username);
-    const user = {
-        name: "Jitendra",
-    };
-    const name = user.name;
+import { Config } from "./config";
 
-    return username + name;
-}
-
-login("jitendram");
+// eslint-disable-next-line no-console
+console.log("PORT", Config.PORT);
